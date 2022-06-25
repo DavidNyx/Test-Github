@@ -1,0 +1,52 @@
+{
+ "add_total_row": 0,
+ "columns": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "First Name",
+   "width": 0
+  },
+  {
+   "fieldname": "last_name",
+   "fieldtype": "Data",
+   "label": "Last Name",
+   "width": 0
+  }
+ ],
+ "creation": "2022-06-16 14:00:37.040666",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [
+  {
+   "fieldname": "first_name",
+   "fieldtype": "Data",
+   "label": "Name",
+   "mandatory": 0,
+   "wildcard_filter": 0
+  }
+ ],
+ "idx": 0,
+ "is_standard": "Yes",
+ "letter_head": "Bang Can Doi Ke Toan",
+ "modified": "2022-06-16 14:04:37.713836",
+ "modified_by": "Administrator",
+ "module": "Manufacturing",
+ "name": "demo23",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "query": "select *\nfrom `tabWork Order`;",
+ "ref_doctype": "Work Order",
+ "report_name": "demo23",
+ "report_type": "Query Report",
+ "roles": [
+  {
+   "role": "Stock User"
+  },
+  {
+   "role": "Manufacturing User"
+  }
+ ]
+}
